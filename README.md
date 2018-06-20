@@ -40,7 +40,7 @@ var component = $("#dropdownbox").PastableTagBox({
         }
     });
 ```
-## Getting/Setting Values - Same as working from a DevExtreme instance
+## Getting/Setting Values - Same as working with a DevExtreme instance
 ```sh
     var tagBoxInstance = component.dxTagBox;
     var tagBoxValues = tagBoxInstance.option("values");
