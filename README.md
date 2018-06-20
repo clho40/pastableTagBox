@@ -10,6 +10,11 @@ A combination of DevExtreme components - dxTagBox, dxPopover, dxDataGrid to hand
 - dxDataGridSettings ([Documentation](https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxDataGrid/))
 - dxPopoverSettings ([Documentation](https://js.devexpress.com/Documentation/ApiReference/UI_Widgets/dxPopover/))
 
+## Include
+```sh
+<script src="assets/js/plx.PastableTagBox.js"></script>
+```
+
 ## Usage
 ```sh
 var component = $("#dropdownbox").PastableTagBox({
