@@ -19,7 +19,7 @@
                 target: "#" + _id,
                 showEvent: "dxclick",
                 position: "bottom",
-                closeOnOutsideClick: false,
+                closeOnOutsideClick: true,
                 showCloseButton: true,
                 animation: {
                     show: {
@@ -88,9 +88,6 @@
             e.preventDefault();
         });
 
-        $("body").append(`.dx-popover-arrow {
-            display: none;
-        }`);
         return {
             dxTagBox: tagBox,
             dxDataGrid: dataGrid,
